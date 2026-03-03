@@ -226,13 +226,149 @@ margin: 0 auto;
   margin-top: 10px;
 }
 
+#uni-box {
+  background-color: #C0BC97;
+  border-radius: 5px;
+  margin: auto;
+  padding: 10px 10px 10px 10px;
+}
+
+.less-title {
+  border-bottom: 3px solid #62441D;
+  padding-bottom: 8px;
+  text-align: center;
+}
+
+.less-intro {
+  text-align: center;
+}
+
+.pop {
+  font-weight: bold;
+}
+
+.vid1 {
+  margin-top: 50px;
+  margin-left: 650px;
+}
+
+.viddesc {
+  text-align: center;
+}
+
+.less-img {
+  width: 550px;
+  height: 500px;
+  border: 2px solid #62441D;
+}
+
+.gmap {
+  margin-left: 400px;
+  border: 2px solid #62441D;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.form-gmap-tg {
+  display: flex;
+  gap: 0px;
+  align-items: flex-start;
+}
+
+.post-title {
+  margin-top: 100px;
+}
+
+.route-title {
+  border-bottom: 3px solid #62441D;
+  text-align: center;
+}
+
+table {
+  text-align: center;
+}
+
+table, td, th {
+  border: 3px solid #C0BC97;
+  border-radius: 5px;
+  color:#FFFFFF;
+  background-color: #62441D;
+  border-collapse: separate;
+  border-spacing: 10px 10px;
+}
+
+th {
+  font-size: 120%;
+  color: #000000;
+  border-collapse: separate;
+  border-spacing: 5px 0;
+}
+
+tr {
+  padding-top: 5px;
+}
+
+td {
+  padding: 10px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 300px;
+}
+
+form {
+  background-color: #C0BC97;
+  font-family: Arial, sans-serif;
+  width: 350px;
+  height: 480px;
+  padding: 10px;
+  flex: 1;
+  margin-top: 50px;
+}
+
+button {
+  padding: 10px 30px;
+  margin-left: 105px;
+  margin-top: 10px;
+}
+
+.map {
+  flex: 1;
+}
+
+label {
+  float: left;
+  clear: left;
+  display: block;
+  width: 100px;
+  padding-right: 10px;
+  margin-top: 10px; 
+  text-align: right;
+}
+
+input {
+  display: block;
+  margin-top: 10px;
+}
+
+textarea {
+  display: block;
+  margin-top: 10px;
+}
+
+input [type="submit"] {
+  margin-left: 310px;
+}
+
 footer {
     font-size: 75%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     font-style: italic;
     background-color: #4D783A;
-    padding: 10 10 10 10;
+    padding: 10px 10px 10px 10px;
     color: #000000;
     border-radius: 10px;
     font-weight: bold;
